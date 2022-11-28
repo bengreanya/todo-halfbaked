@@ -11,7 +11,6 @@ export function renderTodo(todo, handleComplete) {
     // append stuff
     div.append(p);
     // add event listener for click and call handleComplete function
-    handleComplete();
     // return the div
     return div;
 }
